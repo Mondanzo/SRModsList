@@ -69,10 +69,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cEventHelper.cs" />
     <Compile Include="SynthRidersModList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SynthRidersModUtils\UIFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
