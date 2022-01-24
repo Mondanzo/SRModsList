@@ -17,4 +17,4 @@ And any features that might pop up in the Issues as feature requests.
 Check out this guide to install mods:
 [https://wiki.synthriderz.com/en/guides/installing-mods](https://wiki.synthriderz.com/en/guides/installing-mods)
 
-And download the latest available version [releases](https://github.com/Mondanzo/SRModsList/releases) from the Release tab to put into your Mods folder.
+And download the latest available version from the [Releases](https://github.com/Mondanzo/SRModsList/releases) tab to put into your Mods folder.
