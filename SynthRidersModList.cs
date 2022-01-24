@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Reflection;
 using MelonLoader;
 using UnityEngine;
-using PSLib;
 
 public class SynthRidersModList : MelonMod {
 
