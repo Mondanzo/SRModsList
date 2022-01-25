@@ -16,7 +16,7 @@ using MelonLoader;
 [assembly: AssemblyCulture("")]
 
 // Mod Info
-[assembly: MelonInfo(typeof(SynthRidersModList), "SR Mods List", "1.0.0", "Mondanzo")]
+[assembly: MelonInfo(typeof(SynthRidersModList), "SR Mods List", "1.0.1", "Mondanzo")]
 [assembly: MelonGame("Kluge Interactive", "SynthRiders")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
