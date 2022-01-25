@@ -59,16 +59,9 @@ public class SynthRidersModList : MelonMod {
         vrtk.OnUse.AddListener(OpenModList);
     }
 
-    public bool check_main_menu_scene(string scene_name)
+    public bool check_main_menu_scene()
     {
-        try
-        {
-            isMenu = Game_InfoProvider.MenuScene == int.Parse(scene_name.Split('.')[0]);
-            return isMenu;
-        } catch (Exception e)
-        {
-            return false;
-        }
+        return GameObject.Find("Menu Previews") != null;
     }
 
     public override void OnUpdate()
@@ -151,10 +144,10 @@ public class SynthRidersModList : MelonMod {
 
     public override void OnSceneWasLoaded(int buildIndex, string sceneName)
     {
-        if (check_main_menu_scene(sceneName))
+        if (isMenu = check_main_menu_scene())
         {
-            home = GameObject.Find("Z-Wrap").transform.Find("Home");
-            home_buttons = GameObject.Find("Z-Wrap").transform.Find("Home/wrap");
+            home = GameObject.Find("[Game Scripts]").transform.Find("Z-Wrap/Home");
+            home_buttons = home.Find("wrap");
             InjectModButton();
             InjectModMenu();
         }
